@@ -1,14 +1,19 @@
 Weekly Posts - 3 P's
 
-Week 1 - 1/25/2025
+Week 3 2/9/2025
 
-Progress: This week I received and combined all of the data from the client and have started work on the requested PowerBI dashboard.
-Problems: Right off the bat I am running into some difficulties with my data, I was briefed by the client on the data that was sent to me; however now that I am looking into it more closely, it seems I am missing some cirtical information to create the dashboard at this time.
-Plans: I have communicated my issues to the client, and I am working to schedule a weekly meeting with them so that we can discuss and examine the data more closely. I would like to have the dashboard portion of the project done by February 2nd so that I can begin working on the modeling portion of the project. 
-
+Progress: This week I met with my client and was able to finalize the dashboard for the project. We also discussed the data request I had made in the previous week and found that there will be some delay in the request; however, I was provided some sample data to begin work on the data model. With this data, I was able to join everything to get close to what the input file will look like for the data model and I was able to feature engineer columns to predict when a tool head was replaced and approximately how much time had passed between tool changes. 
+Problems: The big problem I had this week was the delay in the data request. My client must do all of the data pulls as they come from an internal database and she had run into multiple issues this week which resulted in delays, meaning I was not able to get as much progress done on the data model as I wouldve liked, especially coming into the working session this week.
+Plans: My client and I discussed that the data should be in my inbox by February 16th and from there I plan to incorporate the feature engineering discussed and move forward with work on the data model. I believe now that I have a value for the time between tool changes I could use a more simplified model for making predictions. I beleive a regression model would work good for predicting the time until a tool change is needed, and a classification model would be useful to flag an upcoming tool change. 
 
 Week 2 - 2/2/2025
 
 Progress: This week I finished 99% of the dashboard for my client, it is just missing formatting details that I will fill in with the help of my client to suit their needs. I also worked with my client to request a secondary dataset to build the time series model from.
 Problems: I had no major issues this week.
 Plans: I plan to continue weekly communication with my client. Next weekend during our meeting I plan to finalize the dashboard for them and also receive and discuss the new dataset for the time series model. I also plan to begin coding work on the model next weekend. 
+
+Week 1 - 1/25/2025
+
+Progress: This week I received and combined all of the data from the client and have started work on the requested PowerBI dashboard.
+Problems: Right off the bat I am running into some difficulties with my data, I was briefed by the client on the data that was sent to me; however now that I am looking into it more closely, it seems I am missing some cirtical information to create the dashboard at this time.
+Plans: I have communicated my issues to the client, and I am working to schedule a weekly meeting with them so that we can discuss and examine the data more closely. I would like to have the dashboard portion of the project done by February 2nd so that I can begin working on the modeling portion of the project. 
