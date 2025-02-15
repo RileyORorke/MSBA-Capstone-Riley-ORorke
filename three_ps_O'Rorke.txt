@@ -1,5 +1,10 @@
 Weekly Posts - 3 P's
 
+Week 4 2/15/2025
+Progres: Due to delays in data requests, there was not much progress amde on the project this week as far as data work goes. I was able to secure a phone call with an engineer from the machining department next week, and I aim to inquire about tool failure/repalcement data and hopefully add that information into the final input table for the data model.
+Problems: No major issues
+Plans: I plan to meet with my client and the machining engineer next week to hopefully square away all of the data. I hope to receive the input dataset for the datamodel next and begin coding on that portion of the project. 
+
 Week 3 2/9/2025
 
 Progress: This week I met with my client and was able to finalize the dashboard for the project. We also discussed the data request I had made in the previous week and found that there will be some delay in the request; however, I was provided some sample data to begin work on the data model. With this data, I was able to join everything to get close to what the input file will look like for the data model and I was able to feature engineer columns to predict when a tool head was replaced and approximately how much time had passed between tool changes. 
