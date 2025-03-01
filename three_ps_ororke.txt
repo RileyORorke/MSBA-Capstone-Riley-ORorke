@@ -1,9 +1,9 @@
 Weekly Posts - 3 P's
 
 Week 6 3/2/2025
-Progress:
-Problems:
-Plans:
+Progress: This week I added additional tool data to the powerbi dashboard, succesfully applying the python script to each dataset and adding a wear tracker for each one. I also reformatted my github repo as well as audited my code to fit the PEP8 style guide. Alongside stylizing my code I also identified all five of my code submission snippets and completed my rough draft of that submission. Lastly, I got a start on my written product.
+Problems: I ran into no problems.
+Plans: Moving forward I plan to finish the written piece of the project before moving into the digital product and my presentations.
 
 Week 5 2/23/2025
 Progress: This week I completed a majority of the data modeling work. I was able to develop a working model in VS code and get it to work in PowerBi. The model predicts the bore diameter for a single tool 10 cycles into the future, and will assign a wear rating (Normal, Moderate, Critical) to that tool based on the change in predicted bore size.
