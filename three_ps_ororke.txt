@@ -1,5 +1,10 @@
 Weekly Posts - 3 P's
 
+Week 6 3/2/2025
+Progress:
+Problems:
+Plans:
+
 Week 5 2/23/2025
 Progress: This week I completed a majority of the data modeling work. I was able to develop a working model in VS code and get it to work in PowerBi. The model predicts the bore diameter for a single tool 10 cycles into the future, and will assign a wear rating (Normal, Moderate, Critical) to that tool based on the change in predicted bore size.
 Problems: Issues that are arising now that I have information to display in PowerBI is how do I want to convey this information. I have a wear rating for one tool currently.... how many tools are there? How can I develop this portion of the dashboard to support future tools being added? Questions like that are now running through my head.
@@ -27,3 +32,8 @@ Week 1 - 1/25/2025
 Progress: This week I received and combined all of the data from the client and have started work on the requested PowerBI dashboard.
 Problems: Right off the bat I am running into some difficulties with my data, I was briefed by the client on the data that was sent to me; however now that I am looking into it more closely, it seems I am missing some cirtical information to create the dashboard at this time.
 Plans: I have communicated my issues to the client, and I am working to schedule a weekly meeting with them so that we can discuss and examine the data more closely. I would like to have the dashboard portion of the project done by February 2nd so that I can begin working on the modeling portion of the project. 
+
+Week 
+Progress:
+Problems:
+Plans:
