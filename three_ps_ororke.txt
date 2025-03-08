@@ -1,5 +1,10 @@
 Weekly Posts - 3 P's
 
+Week 7 3/8/2025
+Progress:
+Problems:
+Plans:
+
 Week 6 3/3/2025
 Progress: This week I added additional tool data to the powerbi dashboard, succesfully applying the python script to each dataset and adding a wear tracker for each one. I also attempted to fit an ARIMA model to see how it would work with my initial dataset I sued to develop the random tree regressor model and how it would interact with the other tool datasets. I also reformatted my github repo as well as audited my code to fit the PEP8 style guide. Alongside stylizing my code I also identified all five of my code submission snippets and completed my rough draft of that submission. Lastly, I got a start on my written product.
 Problems: Something I noticed within the additional datasets for the other tools in the machining center was that some of the data includes varying bore sizes despite the callout listed in the dataset. Because the client wants a single model to fit all of the datasets and due to the nature of how these bore callouts are defined (this is manual data entry by the person who sets up the operator instructions for these boring steps), I am going to display this issue as a point of caution to the client and let them know that this must be considered when setting up the connection in powerBI. These connections will be SQL queries so they will have to set up a filter at that point. I will describe this in detail in the written product for them. 
