@@ -1,9 +1,9 @@
 Weekly Posts - 3 P's
 
-Week 7 3/8/2025
-Progress:
-Problems:
-Plans:
+Week 7 3/9/2025
+Progress: This week I worked extensively on my written product. I was able to get most of a rough draft done, I also tweaked my data model a bit more to see if I could get it to be more accurate.
+Problems: I am having issues with overfitting and not great accuracy in my data model
+Plans: Next week I plan to discuss the digital product in a 1x1 meeting and finalize the inital draft of my written product.
 
 Week 6 3/3/2025
 Progress: This week I added additional tool data to the powerbi dashboard, succesfully applying the python script to each dataset and adding a wear tracker for each one. I also attempted to fit an ARIMA model to see how it would work with my initial dataset I sued to develop the random tree regressor model and how it would interact with the other tool datasets. I also reformatted my github repo as well as audited my code to fit the PEP8 style guide. Alongside stylizing my code I also identified all five of my code submission snippets and completed my rough draft of that submission. Lastly, I got a start on my written product.
