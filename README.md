@@ -26,22 +26,6 @@ The dataset consists of bore measurements recorded over machining cycles, includ
 * Computed rolling statistics (mean & standard deviation) to capture long-term trends.  
 * Standardized cycle count as a proxy for tool degradation.  
 
-## Modeling Approach
-Two models were evaluated for predicting bore wear trends:  
-  
-* Random Forest Regressor: Selected for its superior accuracy and ability to model complex relationships.  
-* ARIMA: Considered for time series forecasting but had higher error rates.  
-
-Final Model Selection: The Random Forest model was chosen due to its lower RMSE and higher predictive accuracy (R² = 0.8970).  
-
-### Model Evaluation Metrics
-
-| Model         | MAE    | RMSE   | R²    |
-|--------------|--------|--------|------|
-| ARIMA       | 0.0154 | 0.0207 | N/A  |
-| Random Forest | 0.0057 | 0.0078 | 0.8970 |
- 
-
 ## Power BI Integration  
 The model is deployed in Power BI, where bore measurement forecasts and wear classifications are visualized in real-time.  
 
