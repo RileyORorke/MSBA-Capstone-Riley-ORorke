@@ -1,5 +1,11 @@
 Weekly Posts - 3 P's
 
+Week 8 3/16/2025
+Progress: This week I did the final tweaks to my code, re-organized my github repo, revised my readme file, finalized the first draft of my written product, and began the outline of my digital product using the wix website builder.
+Problems: No major issues this week, just working to get first drafts of all products done.
+Plans: I plan to continue to work on the digital product, hoping to finalize the first draft of that by the end of next weekend. I also plan to lock in a presentation date with my client.
+Hours Estimated: 14
+
 Week 7 3/9/2025
 Progress: This week I worked extensively on my written product. I was able to get most of a rough draft done, I also tweaked my data model a bit more to see if I could get it to be more accurate.
 Problems: I am having issues with overfitting and not great accuracy in my data model
