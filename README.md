@@ -22,9 +22,26 @@ By offering a data-driven approach to tool wear forecasting and maintenance sche
 ## Data Source
 
 #### `Source_Capstone_Data.xlsx`
-The dataset used in this project contains measurements of bore sizes for a single toolhead over time. This data will be used to train a model to forecast future bore sizes and classify wear stages based on those predictions.
+The dataset used in this project consists of timestamped bore measurement records collected from a single toolhead within a machining center. Each record represents a part processed during a machining cycle and includes detailed metadata to support predictive maintenance modeling.
 
-As part of the future expansion, each toolhead in the machining center will have its own dataset. The model will adapt dynamically to these datasets to account for individual trends of each toolhead.
+### **Key Features of the Dataset**
+
+| Column Name           | Description                                                                 |
+|-----------------------|-----------------------------------------------------------------------------|
+| `C.[EntryTimestamp]`  | Timestamp when the bore measurement was recorded. Serves as a proxy for cycle progression. |
+| `C.[DataValue]`       | Actual bore size measurement (target variable for prediction).              |
+| `C.[MinValue]`        | Minimum allowable bore size based on tolerance specifications.              |
+| `C.[MaxValue]`        | Maximum allowable bore size based on tolerance specifications.              |
+| `D.[AssemblyName]`    | Identifier for the part or assembly associated with the measurement.        |
+| `D.[NamePostfix]`     | Postfix metadata used to identify tool operation zones or usage conditions. |
+
+### **Structure & Use**
+- The data is collected sequentially, enabling time-series forecasting techniques.
+- The primary target variable for the model is `C.[DataValue]`, representing the measured bore diameter.
+- `C.[EntryTimestamp]` is used to establish a chronological order of cycles and to engineer lag-based and rolling statistical features.
+- Tolerance columns (`C.[MinValue]` and `C.[MaxValue]`) allow for distance-to-limit calculations, critical in wear classification.
+
+This dataset serves as the foundational input for feature engineering, predictive modeling, and Power BI dashboard integration. As the project scales, similar datasets from other toolheads will be used, each with its own wear characteristics.
 
 ## Repository Structure
 
@@ -154,6 +171,34 @@ As part of the future expansion, each toolhead in the machining center will have
 
 ### **Real-time Dashboard Updates**:
 - To enhance predictive maintenance capabilities further, integrating live data streams from the machining center into the Power BI dashboard could enable real-time updates. This would allow for continuous monitoring of tool wear and maintenance needs, facilitating proactive interventions based on the most up-to-date data and enabling a more dynamic maintenance strategy.
+
+## **Quick Implementation Guide**
+
+This repository is designed for quick deployment of a predictive maintenance model using bore measurement data. All data processing, modeling, and classification steps are already complete. To use this project:
+
+### Step 1: Prepare Your Dataset
+- Format your bore measurement data using the same structure as `Source_Capstone_Data.xlsx`.
+- Key columns required:
+  - `C.[EntryTimestamp]` – Timestamp of measurement (used as cycle order)
+  - `C.[DataValue]` – Bore size (target for prediction)
+  - `C.[MinValue]` and `C.[MaxValue]` – Tolerance limits
+
+### Step 2: Open Power BI
+- Load your formatted dataset into **Power BI Desktop**.
+- Go to **Home → Transform Data** to open the **Power Query Editor**.
+- Select **Transform → Run Python Script**.
+- Paste the contents of `final_combined_powerbi_ororke_20250315.ipynb` (which contains the full script) into the editor.
+- Click **OK** to run the script and generate predictions and wear classifications.
+
+### Step 3: Build Your Dashboard
+- Back in Power BI, use visuals like:
+  - **Cards** to display wear stages (Normal / Moderate / Critical)
+  - **Line charts** for predicted vs. actual bore size
+  - **Slicers** to filter by tool or time range
+
+### Optional: Updating with New Data
+- Replace the source Excel file with new measurement data.
+- Refresh your Power BI dashboard — predictions and classifications will update automatically.
 
 ## **Conclusion**
 This project demonstrates the development of a predictive maintenance system for toolheads using bore measurements to forecast tool wear. The primary goal is to enhance operational efficiency in a machining center by predicting tool maintenance needs and optimizing tool usage. The model has been successfully implemented in Power BI, where it has been applied to data from multiple toolheads within a single machining center, and it is ready for expansion to other machining centers with similar toolhead datasets.

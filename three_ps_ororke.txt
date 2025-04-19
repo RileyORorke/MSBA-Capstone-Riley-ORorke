@@ -1,5 +1,35 @@
 Weekly Posts - 3 P's
 
+Week 16 5/11/2025
+Progress: 
+Problems: 
+Plans: 
+Hours Estimated: 
+
+Week 15 5/4/2025
+Progress: 
+Problems: 
+Plans: 
+Hours Estimated: 
+
+Week 14 4/27/2025
+Progress: 
+Problems: 
+Plans: 
+Hours Estimated: 
+
+Week 13 4/20/2025
+Progress: This week I addressed some revisions in my github repo and digital product. I also practiced a few run throughs of my presentation.
+Problems: I am having issues with my digital product, specifially with embedding my powerbi dashboard, I do not have the necessary permissions to publish it to the web and make it publically available.
+Plans: I plan to continue to address any necessary revisions and work with Andrew to resolve the powerBI issue.
+Hours Estimated: 6
+
+Week 12 4/13/2025
+Progress: This week I finsihed the sldies for my clinet presentation and practiced it a few times.
+Problems: No problems.
+Plans: I plan to continue to practice the presentation and address any revisions that arise.
+Hours Estimated: 6
+
 Week 11 4/6/2025
 Progress: This week I made incorporated changes to my written product as suggested by Andrew and students in the MBA program, and I also prepped the written product for peer review. Additionally, I got a start on my client presentation slides and plan to finalize those slides by the end of next week.
 Problems: No major problems.
