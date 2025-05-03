@@ -1,22 +1,22 @@
 Weekly Posts - 3 P's
 
 Week 16 5/11/2025
-Progress: 
-Problems: 
-Plans: 
-Hours Estimated: 
+Progress: None
+Problems: None
+Plans: None
+Hours Estimated: -
 
 Week 15 5/4/2025
-Progress: 
-Problems: 
-Plans: 
-Hours Estimated: 
+Progress: None
+Problems: None
+Plans: None
+Hours Estimated: -
 
 Week 14 4/27/2025
-Progress: 
-Problems: 
-Plans: 
-Hours Estimated: 
+Progress: This week I finalized all of my project materials.
+Problems: No problems.
+Plans: I plan to continue practicing my presentation to deliver to the capstone class.
+Hours Estimated: 6
 
 Week 13 4/20/2025
 Progress: This week I addressed some revisions in my github repo and digital product. I also practiced a few run throughs of my presentation.
